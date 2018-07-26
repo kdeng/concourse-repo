@@ -1,0 +1,5 @@
+#!/bin/bash
+
+printf "\n===== Starting concourse containers ====\n"
+echo "http://${ip}:9000" >> web.env
+docker-compose up -d
